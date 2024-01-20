@@ -17,9 +17,20 @@ function City() {
   );
 
   const flagemojiToPNG = (flag) => {
+    if (typeof flag !== "string") {
+      console.error("Invalid flag emoji");
+      return;
+    }
+
     let countryCode = Array.from(flag, (codeUnit) => codeUnit.codePointAt())
       .map((char) => String.fromCharCode(char - 127397).toLowerCase())
       .join("");
+
+    if (!countryCode.match(/^[a-z]{2}$/)) {
+      console.error("Invalid country code");
+      return;
+    }
+
     return (
       <img src={`https://flagcdn.com/24x18/${countryCode}.png`} alt="flag" />
     );

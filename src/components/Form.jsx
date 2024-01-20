@@ -69,6 +69,26 @@ function Form() {
     [lat, lng]
   );
 
+  const flagemojiToPNG = (flag) => {
+    if (typeof flag !== "string") {
+      console.error("Invalid flag emoji");
+      return;
+    }
+
+    let countryCode = Array.from(flag, (codeUnit) => codeUnit.codePointAt())
+      .map((char) => String.fromCharCode(char - 127397).toLowerCase())
+      .join("");
+
+    if (!countryCode.match(/^[a-z]{2}$/)) {
+      console.error("Invalid country code");
+      return;
+    }
+
+    return (
+      <img src={`https://flagcdn.com/24x18/${countryCode}.png`} alt="flag" />
+    );
+  };
+
   async function handleSubmit(e) {
     e.preventDefault();
 
@@ -101,7 +121,7 @@ function Form() {
           onChange={(e) => setCityName(e.target.value)}
           value={cityName}
         />
-        <span className={styles.flag}>{emoji}</span>
+        <span className={styles.flag}>{flagemojiToPNG(emoji)}</span>
       </div>
 
       <div className={styles.row}>

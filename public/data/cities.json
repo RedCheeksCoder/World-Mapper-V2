@@ -1,40 +1,52 @@
 {
   "cities": [
     {
-      "cityName": "Manila",
-      "country": "Philippines (the)",
-      "emoji": "🇵🇭",
-      "date": "2024-01-20T08:25:16.274Z",
-      "notes": "Yeyy!",
+      "cityName": "Vilanova d'Alcolea",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-01-20T10:28:13.053Z",
+      "notes": "Nice ride!",
       "position": {
-        "lat": "14.546740897923646",
-        "lng": "121.06307029724123"
+        "lat": "40.22659698282217",
+        "lng": "0.06832122802734376"
       },
       "id": 1
     },
     {
-      "cityName": "Minokamo",
-      "country": "Japan",
-      "emoji": "🇯🇵",
-      "date": "2024-01-20T08:25:52.888Z",
-      "notes": "Arigatou",
+      "cityName": "Manila",
+      "country": "Philippines (the)",
+      "emoji": "🇵🇭",
+      "date": "2024-01-20T10:28:34.749Z",
+      "notes": "QC!!",
       "position": {
-        "lat": "35.51434313431818",
-        "lng": "137.02148437500003"
+        "lat": "14.649278323850693",
+        "lng": "121.05800628662111"
       },
       "id": 2
     },
     {
-      "cityName": "Manila",
+      "cityName": "Antipolo",
       "country": "Philippines (the)",
       "emoji": "🇵🇭",
-      "date": "2024-01-20T08:27:06.286Z",
-      "notes": "asdasdasdasd",
+      "date": "2024-01-20T10:29:21.152Z",
+      "notes": "Nice Food!",
       "position": {
-        "lat": "14.545370086547344",
-        "lng": "121.01972579956056"
+        "lat": "14.607671085585975",
+        "lng": "121.13182067871095"
       },
       "id": 3
+    },
+    {
+      "cityName": "Binangonan",
+      "country": "Philippines (the)",
+      "emoji": "🇵🇭",
+      "date": "2024-01-20T10:29:30.842Z",
+      "notes": "Good rides!",
+      "position": {
+        "lat": "14.526344007941853",
+        "lng": "121.15293502807619"
+      },
+      "id": 4
     }
   ]
 }
