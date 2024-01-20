@@ -1,0 +1,40 @@
+{
+  "cities": [
+    {
+      "cityName": "Manila",
+      "country": "Philippines (the)",
+      "emoji": "🇵🇭",
+      "date": "2024-01-20T08:25:16.274Z",
+      "notes": "Yeyy!",
+      "position": {
+        "lat": "14.546740897923646",
+        "lng": "121.06307029724123"
+      },
+      "id": 1
+    },
+    {
+      "cityName": "Minokamo",
+      "country": "Japan",
+      "emoji": "🇯🇵",
+      "date": "2024-01-20T08:25:52.888Z",
+      "notes": "Arigatou",
+      "position": {
+        "lat": "35.51434313431818",
+        "lng": "137.02148437500003"
+      },
+      "id": 2
+    },
+    {
+      "cityName": "Manila",
+      "country": "Philippines (the)",
+      "emoji": "🇵🇭",
+      "date": "2024-01-20T08:27:06.286Z",
+      "notes": "asdasdasdasd",
+      "position": {
+        "lat": "14.545370086547344",
+        "lng": "121.01972579956056"
+      },
+      "id": 3
+    }
+  ]
+}
