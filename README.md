@@ -8,6 +8,9 @@ Libraries:
 FOR INSTALLATION
 - npm install
 - npm json-live-server
+- npm i leaflet
+- npm i react-date-picker
+- npm i react-router-dom
 
 Run in Development
 - npm run dev
